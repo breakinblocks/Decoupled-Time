@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.breakinblocks.decoupled_time.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinDerivedLevelData",
+    "MixinServerLevel",
+    "MixinPlayerList",
+    "MixinTimeCommand"
+  ],
+  "client": [
+    "MixinClientLevel"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

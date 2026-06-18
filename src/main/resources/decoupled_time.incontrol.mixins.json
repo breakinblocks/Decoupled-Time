@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.breakinblocks.decoupled_time.compat.incontrol.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "com.breakinblocks.decoupled_time.compat.incontrol.InControlMixinPlugin",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

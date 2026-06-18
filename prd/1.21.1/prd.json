@@ -1,0 +1,31 @@
+{
+  "targetVersion": "1.21.1",
+  "status": "In Progress",
+  "systems": [
+    {
+      "name": "DimensionType timelines codec",
+      "status": "Completed"
+    },
+    {
+      "name": "Timeline data model records",
+      "status": "Completed"
+    },
+    {
+      "name": "DimensionType extension storage",
+      "status": "Completed"
+    },
+    {
+      "name": "MixinClientLevel interpolation integration",
+      "status": "Not Started"
+    },
+    {
+      "name": "Server/client sync plumbing",
+      "status": "Not Started"
+    }
+  ],
+  "roadblocks": [
+    "DimensionType.DIRECT_CODEC is static final and must be replaced via @Mutable shadow in <clinit> tail.",
+    "Schema drift risk: timeline value type may eventually become non-numeric for some attributes in future versions.",
+    "Ease currently modeled as string-only for 1.21.11; cubic_bezier object support may be required later."
+  ]
+}
