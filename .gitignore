@@ -124,6 +124,8 @@ runs/
 # Local agent state
 .claude/
 .sisyphus/
+lessons/
+prd/
 
 # Extracted dependency sources
 sources_tmp/
